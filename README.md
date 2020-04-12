@@ -1,3 +1,5 @@
+Credit goes to - https://github.com/ZhangMYihua/lifecycles-lesson
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
