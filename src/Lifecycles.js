@@ -1,12 +1,28 @@
 import React from "react";
 
+//mounting - first time when gets loaded
+//render - display
+//componentDidMount - component will be mounted
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//updating
+//new props,setState,forceupdate
+//shouldComponentUpdate - decides whether the component should be updated or not
+//true - will be updated , false - wont be updated
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//unmount
+//after finished rendering
 class Lifecycles extends React.Component {
   constructor() {
-    super();
+    super(); //getting extending class properties
     console.log("constructor!");
   }
 
   componentDidMount() {
+    //preferred functions  - api call
     console.log("componentDidMount!");
   }
 
@@ -15,6 +31,7 @@ class Lifecycles extends React.Component {
   }
 
   componentWillUnmount() {
+      //clean unwanted memory
     console.log("componentWillUnmount!");
   }
 
